@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export default function Page() {
+export default function page() {
   
   return (
     <div className="text-center">
@@ -14,8 +14,8 @@ export default function Page() {
       <h1>66162110507-7 pusit</h1>
       <Link href="\fruit">Go to Fruits</Link>
       <br />
-          <Link href="\hello">Go to hello</Link>
-          <br />
+      <Link href="\hello">Go to hello</Link>
+      <br />
       <Link href="\server2">Go to server2</Link>
       <br />
       <Link href="\movie">Go to movie</Link>

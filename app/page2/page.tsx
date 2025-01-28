@@ -14,8 +14,6 @@ export default function Page() {
             <Link href="\page2">Go to Page2</Link>
             <br />
             <Link href="\page3">Go to Page3</Link>
-            <br />
-            <Link href="\page">Go back Home</Link>
         </div>
     );
 }
