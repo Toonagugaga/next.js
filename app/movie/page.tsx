@@ -69,7 +69,7 @@ const App: React.FC = () => {
 
       {selectedMovie && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white text-black rounded-lg shadow-lg p-6 max-w-md w-full relative">
+          <div className="bg-violet-500 text-black rounded-lg shadow-lg p-6 max-w-md w-full relative">
             <button
               onClick={closePopup}
               className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full"
